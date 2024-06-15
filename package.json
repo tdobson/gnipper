@@ -1,0 +1,25 @@
+{
+  "name": "gnipper",
+  "version": "1.0.0",
+  "description": "Gnipper is a mock API that simulates the functionality of Gnasher for managing villa bookings.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tdobson/gnipper.git"
+  },
+  "keywords": [
+    "api",
+    "mock",
+    "villas",
+    "bookings"
+  ],
+  "author": "Your Name",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
+
