@@ -4,7 +4,8 @@
   "description": "Gnipper is a mock API that simulates the functionality of Gnasher for managing villa bookings.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
