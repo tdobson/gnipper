@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Load sample data from JSON files
 let villas = require('./data/villas.json');
-let bookings = require('./data/bookings.json.json');
+let bookings = require('./data/bookings.json');
 
 // Save data to JSON files
 const saveData = (filename, data) => {
