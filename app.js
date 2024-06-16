@@ -1,9 +1,10 @@
 const express = require('express');
 const uuid = require('uuid');
 const fs = require('fs');
+const cors = require('cors');
 const app = express();
 
-app.use(express.json());
+app.use(cors());
 
 // Load sample data from JSON files
 let villas = require('./data/villas.json');
